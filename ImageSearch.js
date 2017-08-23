@@ -14,7 +14,7 @@ var express = require('express');
 var app = express();
 var mongo = require('mongodb').MongoClient;
 var fs = require("fs");
-var Bing = require('node-bing-api')({ accKey: "52b57dae102e4a9e9261a96b2a0ffc74" });
+var Bing = require('node-bing-api')({ accKey: "accKey" });
 var images_json = [];
 //var util = require('util');
 
